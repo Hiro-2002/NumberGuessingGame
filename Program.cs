@@ -20,9 +20,10 @@
 
             string? difficulty = Console.ReadLine();
 
+            // switch case
             chances = difficulty switch
             {
-                "1" => 10,
+                "1" => 10, 
                 "2" => 5,
                 "3" => 3,
                 _ => 5 // default
